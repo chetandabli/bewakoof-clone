@@ -3,10 +3,14 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-}
 
+}
+.sticky-head{
+    position: sticky;
+    top: 0;
+}
 .contact-section {
-    height: auto;
+    height: 30px;
     width: 100%;
     background-color: #eeeeee;
     display: flex;
@@ -31,7 +35,8 @@ body {
 
 .navbar {
     width: 100%;
-    height: 60px;
+    background-color: #fff;
+    height: 55px;
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid gray;
@@ -79,15 +84,41 @@ outline: none;
 .logo {
     width: 140px;
 }
-
+.top-menu{
+    background-color: #fff;
+    height: 50px;
+}
+.top-menu-div{
+    width: 100%;
+    height: 54px;
+    background-color: #fff;
+}
+.top-menu{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+.selected{
+    width: 30%;
+    margin: auto;
+}
+.selected-glow{
+    width: 20%;
+    border-top: 4px solid #fdd835;
+}
 .tab {
     width: 30%;
     height: 40px;
     margin: auto;
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
+    font-size: 1.1rem;
+    font-weight: 700;
     margin-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 .men-images {
@@ -95,6 +126,8 @@ outline: none;
     height: 400px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .image {
@@ -105,7 +138,6 @@ outline: none;
 
 .crazy-image {
     width: 100%;
-    margin-top: 30px;
 }
 
 .categories {
@@ -141,8 +173,11 @@ outline: none;
 }
 .pop-cat-box{
     width: 16.3%;
- 
 }
+.pop-cat-box img{
+    width: 100%;
+}
+
 .dis-banner{
     width: 100%;
     height: auto;
@@ -154,8 +189,259 @@ outline: none;
     height: auto;
 }
 .banner-image{
-    width: 95%;
+    width: 100%;
 }
 .banner-image2{
-    width: 96%;
+    width: 100%;
+}
+.b-sellers-men{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    
+}
+.b-sellers-men-box{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.b-s-m-box-image img{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bsbox-cap{
+    margin: 0 15px;
+}
+.caption-men-b-s-box{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.span-cap{
+    text-decoration: line-through;
+    padding-left: 5px;
+    font-size: .8rem;
+    font-weight: 300;
+}
+.viwe-all{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.just-arrived{
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+.j-s-img{
+    margin: 15px;
+}
+.j-s-img img{
+    width: 100%;
+}
+.best-bargain{
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+.best-bargain-img{
+    margin: 0 0;
+}
+.best-bargain-img img{
+    width: 100%;
+}
+.buttom{
+    width: 100%;
+    background-color: black;
+}
+.buttom-box{
+    width: 85%;
+    margin: auto;
+    padding: 75px 0;
+    color: #eaeaea;
+}
+.b-logo{
+    color: #fdd835;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+.trademark{
+    font-size: .6rem;
+    position: relative;
+    top: -11px;
+}
+.contact-info{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.c-info-box{
+    width: 25%;
+}
+.c-heading{
+    color: #fdd835;
+    font-size: .9rem;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.ul{
+    color: #eaeaea;
+    list-style-type: none;
+    padding: 0;
+    font-size: .8rem;
+}
+.li{
+    margin-top: 5px;
+}
+.s-icon-top{
+    padding-right: 7px;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.s-icon{
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.sub-email{
+    width: 100%;
+}
+.email{
+    background-color: black;
+    color: #eaeaea;
+    border: none;
+    border-bottom: 2px solid #fdd835;
+    height: 38px;
+}
+.email:focus{
+    outline: none;
+}
+button{
+    border: none;
+    background-color: #fdd835;
+    height: 40px;
+}
+.buttom-last-box{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+
+.first-b-box{
+    font-size: .8rem;
+}
+.fa-arrow-rotate-left{
+    margin-right: 15px;
+}
+.fa-indian-rupee-sign{
+    margin-right: 15px;
+}
+.b-l-box-1{
+    width: 25%;
+    height: auto;
+}
+.b-l-box-2{
+    width: 25%;
+    height: auto;
+    color: #fdd835;
+    font-size: .9rem;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.b-l-box-3{
+    width: 50%;
+    color: #fdd835;
+    font-size: .9rem;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.play-store img{
+    width: 40%;
+    height: auto;
+}
+.buttom-last{
+    width: 98%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    display: flex;
+
+}
+.buttom-last-li{
+    width: 25%;
+}
+.buttom-last-li-head{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.sitemap{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #51cccc;
+}
+.pra{
+    border-top: 2px solid gray;
+    padding-top: 40px;
+}
+.p-head{
+    font-size: 1.3rem;
+    font-weight: 650;
+}
+.p-data{
+    padding: 5px 0;
+}
+
+/* offers page */
+.offers-page{
+    width: 85%;
+    margin: auto;
+    margin-top: 16px;
+}
+.offer-p-heading{
+    font-size: 2.5rem;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+}
+.offer-p-discrip{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.banner-offer-page{
+    margin-top: 15px;
+}
+.banner-offer-page img{
+    width: 100%;
+}
+
+/* fanbook page */
+.fanbook{
+    width: 100%;
+}
+.fan-banner{
+    width: 100%;
+}
+.fan-banner img{
+    width: 100%;
+    margin-top: 20px;
 }
